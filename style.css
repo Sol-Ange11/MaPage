@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Sarala&family=swap');
+@media all and (min-width:320px) and (max-width:1366px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    /* //padding=space entre les bords de chaque section */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(320deg, #37d5d6 10%, #27096d 97%);    
+}
+
+.tête {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.tête-image {
+    height: 72px;
+}
+
+.tête-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.tête-menu-item {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    color: bisque;
+}
+
+.tête-menu-item:hover{
+    background-color: #8ca2eb;
+}
+
+.contenu{
+    margin-bottom: 48px;
+    padding: 0 15rem;
+    /* border-top: 0.4px solid bisque; pour la ligne de separation*/
+}
+
+.contenu-principal {
+    display: flex;
+    flex-direction:initial;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenu-pricnipal-écrit {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contenu-pricipal-écrit-titre {
+    font-family: 'Hurricane', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color:black;
+}
+
+.contenu-pricipal-écrit-soutitre {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: bisque;
+}
+
+.contenu-principal-paragraphe{
+    width: 90%;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: bisque;
+}
+
+.contenu-pricipal-écrit-bouton {
+    background-color: bisque;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #252323;
+}
+
+.contenu-pricipal-écrit-bouton:hover {
+    background-color: #8ca2eb;
+}
+
+.contenu-pricipal-image {
+    height: 400px;
+}
+
+.contenu-secundaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.contenu-secundaire-titre {
+    border-top: 0.4px solid bisque;
+    padding-top: 48px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.contenu-secundaire-paragraphe{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: bisque;
+}
+
+.bas-de-page {
+    padding-top: 4%;
+    padding-bottom: 0%;
+    border-top: 0.4px solid bisque;
+}
+
+.bas-de-page-écrit {
+    /* display: block;
+    margin: 0 auto; */
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.bas-de-page-sinature {
+    line-height: 100px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: bisque;
+    font-family: 'Inspiration', cursive;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+
+.contenu-principal-contact{
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.contenu-pricipal-écrit-contenu{
+    color: bisque;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+}
