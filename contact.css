@@ -14,6 +14,25 @@
     font-size: 20px;
 }
 
+
+.contenu-pricipal-écrit-bouton {
+    background-color: bisque;
+    width: 9rem;
+    height: 3rem;
+    margin: 1rem;   
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #252323;
+}
+
+.contenu-pricipal-écrit-bouton:hover {
+    background-color: #8ca2eb;
+}
+
 @media screen and (max-width: 769px) {
     .contenu{
         padding: 0 5rem;
@@ -29,6 +48,11 @@
     
     .contenu-pricipal-écrit-titre {
         font-size: 3rem;
+    }
+
+    .contenu-pricipal-écrit-bouton {
+        width: 7rem;
+        height: 2.5rem;
     }
 }
     

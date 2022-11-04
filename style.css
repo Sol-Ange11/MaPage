@@ -8,7 +8,6 @@
 }
 
 body {
-    font-size: 100%;
     background: linear-gradient(320deg, #37d5d6 10%, #27096d 97%);    
 }
 
@@ -16,7 +15,7 @@ body {
     body {    
     align-items: center;
     text-align: justify;
-    margin: 1%;
+    margin: 0.1%;
     padding: 0;
     box-sizing: column;
     justify-content: space-around;

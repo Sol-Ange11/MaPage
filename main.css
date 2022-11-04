@@ -40,23 +40,6 @@
     color: bisque;
 }
 
-.contenu-pricipal-écrit-bouton {
-    background-color: bisque;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #252323;
-}
-
-.contenu-pricipal-écrit-bouton:hover {
-    background-color: #8ca2eb;
-}
-
 .contenu-pricipal-image {
     height:30rem;
 }
@@ -94,7 +77,10 @@
 
     .contenu-principal{
         flex-direction: column;
-        gap: 6rem;
+    }
+
+    .contenu-pricipal-écrit-titre {
+        text-align: left;
     }
 
     .contenu-pricipal-écrit-soutitre {

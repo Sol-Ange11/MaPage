@@ -29,12 +29,17 @@
     .bas-de-page {
         padding: 0 5rem;
         flex-direction: column;
+    }
+
+    .bas-de-page-écrit {
         padding-top: 4rem;
     }
 
     .bas-de-page-sinature {
         padding-top: 0;
         padding-bottom: 0;
+        font-size: 2rem;
+        text-align: left;
     }
 }
     
