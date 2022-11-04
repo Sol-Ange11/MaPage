@@ -10,6 +10,8 @@
     float: right;
     max-height: none;
     font-size: 10px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards; 
     }
     .contenu-pricipal-image {
     height: 150px;
