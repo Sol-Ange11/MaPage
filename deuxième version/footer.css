@@ -1,13 +1,15 @@
 .bas-de-page {
-    padding-top: 4%;
-    padding-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 0;
     border-top: 0.4px solid bisque;
+
+
 }
 
 .bas-de-page-écrit {
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     color: black;
     font-family: 'Sarala', sans-serif;
@@ -17,12 +19,23 @@
 
 .bas-de-page-sinature {
     line-height: 100px;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     color: bisque;
     font-family: 'Hurricane', cursive;
     font-size: 40px;
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 769px) {
+    .bas-de-page {
+        padding: 0 5rem;
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+
+    .bas-de-page-sinature {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+    

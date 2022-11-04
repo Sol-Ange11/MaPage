@@ -1,0 +1,34 @@
+.contenu-principal-contact{
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.contenu-pricipal-écrit-contenu{
+    color: bisque;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .contenu{
+        padding: 0 5rem;
+    }
+    
+    .contenu-principal-contact {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .contenu-pricnipal-écrit {
+        align-items: center;
+    }
+    
+    .contenu-pricipal-écrit-titre {
+        font-size: 3rem;
+    }
+}
+    

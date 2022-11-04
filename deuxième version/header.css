@@ -29,10 +29,9 @@
 
 @media screen and (max-width: 769px) {
     .tête-menu {
-        float: left;
-        max-height: none;
-        font-size: 8px;
-        transform: 150%;
+        gap: 1rem;
+    }
+    .tête-menu-item {
+        font-size: 01rem;
         }
-    
 }
