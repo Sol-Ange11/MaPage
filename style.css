@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Sarala&family=swap');
+@media screen and (min-width: 300px) {
+    body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    }
+    .header .tête-menu-item {
+    clear: none;
+    float: right;
+    max-height: none;
+    font-size: 10px;
+    }
+    .contenu-pricipal-image {
+    height: 150px;
+}
+}
     
 *{
     margin: 0;
     padding: 0;
-    /* //padding=space entre les bords de chaque section */
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -154,7 +169,7 @@ body {
     align-items: center;
     justify-content: space-around;
     color: bisque;
-    font-family: 'Inspiration', cursive;
+    font-family: 'Smooch Sans', sans-serif;
     font-size: 40px;
     padding-bottom: 0;
 }
