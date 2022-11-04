@@ -1,0 +1,38 @@
+.tête {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.tête-image {
+    height: 72px;
+}
+
+.tête-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.tête-menu-item {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    color: bisque;
+}
+
+.tête-menu-item:hover{
+    background-color: #8ca2eb;
+}
+
+
+@media screen and (max-width: 769px) {
+    .tête-menu {
+        float: left;
+        max-height: none;
+        font-size: 8px;
+        transform: 150%;
+        }
+    
+}
