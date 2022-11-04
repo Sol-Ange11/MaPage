@@ -24,9 +24,11 @@
 }
 
 .contenu-pricipal-écrit-soutitre {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Hurricane';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 3rem;
+    letter-spacing : 0.2rem;
+    margin: 0;
     color: bisque;
 }
 
@@ -70,9 +72,10 @@
 .contenu-secundaire-titre {
     border-top: 0.4px solid bisque;
     padding-top: 48px;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Hurricane';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2.2rem;
+    letter-spacing : 0.2rem;
     color: black;
     margin-bottom: 16px;
 }
@@ -93,6 +96,10 @@
         flex-direction: column;
         gap: 6rem;
     }
+
+    .contenu-pricipal-écrit-soutitre {
+        font-size: 3rem;
+    }    
 
     .contenu-pricipal-image {
         height: 1%;
